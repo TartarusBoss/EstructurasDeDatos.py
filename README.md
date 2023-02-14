@@ -1,2 +1,2 @@
-# Actividad de programación #2 - Matías Herrera Vanegas
-Esta actividad tiene como fin aprender a manejar bien la POO, Creando clases con sus atributos y métodos
+# Actividad de programación #3 - Matías Herrera Vanegas
+Esta es la actividad calificativa de POO, hecha el 14/02/2023

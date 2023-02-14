@@ -26,17 +26,23 @@ class Punto:
 
 class Rectangulo:
 
-    def __init__(self, esquina1: int,esquina2: int ):
-        self.esquina1: int = esquina1
-        self.esquina2: int = esquina2
+    def __init__(self, base: int,altura: int ):
+        self.base: int = esquina1
+        self.altura: int = esquina2
 
-    def perimetro(self, esquina1: int, esquina2: int) -> int:
+    def perimetro(self, base: int, altura: int) -> int:
+        perimetro = (2*base) + (2*altura)
+        return print(f"El perímetro es: {perimetro}")
 
 
-    def area(self, esquina1: int, esquina2: int) -> int:
+    def area(self, base: int, altura: int) -> int:
+        self.area = (base * altura)
+        return print(f"El area es: {area}")
 
 
-    def determinar_cuadrado(self, esquina1:int, esquina2: int) -> int:
+    def determinar_cuadrado(self, base:int, altura: int) -> int:
+        if base == altura:
+         return print(f"El rectángulo es un cuadrado")
 
 
 class Circulo:
@@ -46,10 +52,15 @@ class Circulo:
         self.radio: float = radio
 
     def area(self, centro: float, radio: float) -> float:
+        self.area = math.pi * (radio)**2
+        return print(f"El area del circulo es: {area}")
 
     def perimetro(self, centro: float, radio: float) -> float:
+        perimetro = (2 * math.pi * radio)
+        return(f"El perimetro del circulo es: {perimetro}")
 
     def determinar_pertenencia(self, centro: float, radio: float) -> float:
+        determinar_pertenencia =
 
 
 class Carta:
